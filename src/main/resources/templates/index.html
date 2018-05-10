@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<!--/*@thymesVar id="urls" type="org.springframework.web.servlet.resource.ResourceUrlProvider"*/-->
+<div th:text="${urls}"></div>
+<script th:src="${urls.getForLookupPath('/js/test.js')}" type="text/javascript" ></script>
+</body>
+</html>
