@@ -14,18 +14,4 @@ public class IndexController {
     public String index(){
         return "index";
     }
-    @GetMapping("/info.html")
-    public String info(){
-        return "info";
-    }
-
-    @GetMapping("/own.html")
-    public String own(){
-        return "own";
-    }
-
-    @GetMapping("/quan.html")
-    public String quan(){
-        return "quan";
-    }
 }
